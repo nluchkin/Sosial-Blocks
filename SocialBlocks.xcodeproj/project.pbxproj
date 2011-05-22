@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE04279C13894E4400E97C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04279B13894E4400E97C05 /* UIKit.framework */; };
+		CE04279E13894E4400E97C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04279D13894E4400E97C05 /* Foundation.framework */; };
+		CE0427A013894E4400E97C05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04279F13894E4400E97C05 /* CoreGraphics.framework */; };
+		CE0427A613894E4400E97C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0427A413894E4400E97C05 /* InfoPlist.strings */; };
+		CE0427A913894E4400E97C05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0427A813894E4400E97C05 /* main.m */; };
+		CE0427AC13894E4400E97C05 /* SocialBlocksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0427AB13894E4400E97C05 /* SocialBlocksAppDelegate.m */; };
+		CE0427AF13894E4400E97C05 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0427AD13894E4400E97C05 /* MainWindow.xib */; };
+		CE0427B213894E4400E97C05 /* SocialBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0427B113894E4400E97C05 /* SocialBlocksViewController.m */; };
+		CE0427B513894E4400E97C05 /* SocialBlocksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0427B313894E4400E97C05 /* SocialBlocksViewController.xib */; };
+		CE0427BC13894E4400E97C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04279B13894E4400E97C05 /* UIKit.framework */; };
+		CE0427BD13894E4400E97C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04279D13894E4400E97C05 /* Foundation.framework */; };
+		CE0427BE13894E4400E97C05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04279F13894E4400E97C05 /* CoreGraphics.framework */; };
+		CE0427C613894E4500E97C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0427C413894E4500E97C05 /* InfoPlist.strings */; };
+		CE0427C913894E4500E97C05 /* SocialBlocksTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CE0427C813894E4500E97C05 /* SocialBlocksTests.h */; };
+		CE0427CB13894E4500E97C05 /* SocialBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0427CA13894E4500E97C05 /* SocialBlocksTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0427BF13894E4500E97C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE04278E13894E4400E97C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE04279613894E4400E97C05;
+			remoteInfo = SocialBlocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE04279713894E4400E97C05 /* SocialBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE04279B13894E4400E97C05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE04279D13894E4400E97C05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE04279F13894E4400E97C05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE0427A313894E4400E97C05 /* SocialBlocks-Info.plist */ = {isa = PBXFileReference; path = "SocialBlocks-Info.plist"; sourceTree = "<group>"; };
+		CE0427A513894E4400E97C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE0427A713894E4400E97C05 /* SocialBlocks-Prefix.pch */ = {isa = PBXFileReference; path = "SocialBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		CE0427A813894E4400E97C05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE0427AA13894E4400E97C05 /* SocialBlocksAppDelegate.h */ = {isa = PBXFileReference; path = SocialBlocksAppDelegate.h; sourceTree = "<group>"; };
+		CE0427AB13894E4400E97C05 /* SocialBlocksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialBlocksAppDelegate.m; sourceTree = "<group>"; };
+		CE0427AE13894E4400E97C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE0427B013894E4400E97C05 /* SocialBlocksViewController.h */ = {isa = PBXFileReference; path = SocialBlocksViewController.h; sourceTree = "<group>"; };
+		CE0427B113894E4400E97C05 /* SocialBlocksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialBlocksViewController.m; sourceTree = "<group>"; };
+		CE0427B413894E4400E97C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocialBlocksViewController.xib; sourceTree = "<group>"; };
+		CE0427BB13894E4400E97C05 /* SocialBlocksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialBlocksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0427C313894E4500E97C05 /* SocialBlocksTests-Info.plist */ = {isa = PBXFileReference; path = "SocialBlocksTests-Info.plist"; sourceTree = "<group>"; };
+		CE0427C513894E4500E97C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE0427C713894E4500E97C05 /* SocialBlocksTests-Prefix.pch */ = {isa = PBXFileReference; path = "SocialBlocksTests-Prefix.pch"; sourceTree = "<group>"; };
+		CE0427C813894E4500E97C05 /* SocialBlocksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialBlocksTests.h; sourceTree = "<group>"; };
+		CE0427CA13894E4500E97C05 /* SocialBlocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialBlocksTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE04279413894E4400E97C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04279C13894E4400E97C05 /* UIKit.framework in Frameworks */,
+				CE04279E13894E4400E97C05 /* Foundation.framework in Frameworks */,
+				CE0427A013894E4400E97C05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0427B713894E4400E97C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0427BC13894E4400E97C05 /* UIKit.framework in Frameworks */,
+				CE0427BD13894E4400E97C05 /* Foundation.framework in Frameworks */,
+				CE0427BE13894E4400E97C05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE04278C13894E4400E97C05 = {
+			isa = PBXGroup;
+			children = (
+				CE0427A113894E4400E97C05 /* SocialBlocks */,
+				CE0427C113894E4500E97C05 /* SocialBlocksTests */,
+				CE04279A13894E4400E97C05 /* Frameworks */,
+				CE04279813894E4400E97C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE04279813894E4400E97C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE04279713894E4400E97C05 /* SocialBlocks.app */,
+				CE0427BB13894E4400E97C05 /* SocialBlocksTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE04279A13894E4400E97C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE04279B13894E4400E97C05 /* UIKit.framework */,
+				CE04279D13894E4400E97C05 /* Foundation.framework */,
+				CE04279F13894E4400E97C05 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0427A113894E4400E97C05 /* SocialBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0427AA13894E4400E97C05 /* SocialBlocksAppDelegate.h */,
+				CE0427AB13894E4400E97C05 /* SocialBlocksAppDelegate.m */,
+				CE0427AD13894E4400E97C05 /* MainWindow.xib */,
+				CE0427B013894E4400E97C05 /* SocialBlocksViewController.h */,
+				CE0427B113894E4400E97C05 /* SocialBlocksViewController.m */,
+				CE0427B313894E4400E97C05 /* SocialBlocksViewController.xib */,
+				CE0427A213894E4400E97C05 /* Supporting Files */,
+			);
+			path = SocialBlocks;
+			sourceTree = "<group>";
+		};
+		CE0427A213894E4400E97C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE0427A313894E4400E97C05 /* SocialBlocks-Info.plist */,
+				CE0427A413894E4400E97C05 /* InfoPlist.strings */,
+				CE0427A713894E4400E97C05 /* SocialBlocks-Prefix.pch */,
+				CE0427A813894E4400E97C05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE0427C113894E4500E97C05 /* SocialBlocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE0427C813894E4500E97C05 /* SocialBlocksTests.h */,
+				CE0427CA13894E4500E97C05 /* SocialBlocksTests.m */,
+				CE0427C213894E4500E97C05 /* Supporting Files */,
+			);
+			path = SocialBlocksTests;
+			sourceTree = "<group>";
+		};
+		CE0427C213894E4500E97C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE0427C313894E4500E97C05 /* SocialBlocksTests-Info.plist */,
+				CE0427C413894E4500E97C05 /* InfoPlist.strings */,
+				CE0427C713894E4500E97C05 /* SocialBlocksTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE04279613894E4400E97C05 /* SocialBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0427CE13894E4500E97C05 /* Build configuration list for PBXNativeTarget "SocialBlocks" */;
+			buildPhases = (
+				CE04279313894E4400E97C05 /* Sources */,
+				CE04279413894E4400E97C05 /* Frameworks */,
+				CE04279513894E4400E97C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialBlocks;
+			productName = SocialBlocks;
+			productReference = CE04279713894E4400E97C05 /* SocialBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE0427BA13894E4400E97C05 /* SocialBlocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0427D113894E4500E97C05 /* Build configuration list for PBXNativeTarget "SocialBlocksTests" */;
+			buildPhases = (
+				CE0427B613894E4400E97C05 /* Sources */,
+				CE0427B713894E4400E97C05 /* Frameworks */,
+				CE0427B813894E4400E97C05 /* Resources */,
+				CE0427B913894E4400E97C05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0427C013894E4500E97C05 /* PBXTargetDependency */,
+			);
+			name = SocialBlocksTests;
+			productName = SocialBlocksTests;
+			productReference = CE0427BB13894E4400E97C05 /* SocialBlocksTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE04278E13894E4400E97C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = CE04279113894E4400E97C05 /* Build configuration list for PBXProject "SocialBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE04278C13894E4400E97C05;
+			productRefGroup = CE04279813894E4400E97C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE04279613894E4400E97C05 /* SocialBlocks */,
+				CE0427BA13894E4400E97C05 /* SocialBlocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE04279513894E4400E97C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0427A613894E4400E97C05 /* InfoPlist.strings in Resources */,
+				CE0427AF13894E4400E97C05 /* MainWindow.xib in Resources */,
+				CE0427B513894E4400E97C05 /* SocialBlocksViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0427B813894E4400E97C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0427C613894E4500E97C05 /* InfoPlist.strings in Resources */,
+				CE0427C913894E4500E97C05 /* SocialBlocksTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE0427B913894E4400E97C05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE04279313894E4400E97C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0427A913894E4400E97C05 /* main.m in Sources */,
+				CE0427AC13894E4400E97C05 /* SocialBlocksAppDelegate.m in Sources */,
+				CE0427B213894E4400E97C05 /* SocialBlocksViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0427B613894E4400E97C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0427CB13894E4500E97C05 /* SocialBlocksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0427C013894E4500E97C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE04279613894E4400E97C05 /* SocialBlocks */;
+			targetProxy = CE0427BF13894E4500E97C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE0427A413894E4400E97C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0427A513894E4400E97C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE0427AD13894E4400E97C05 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0427AE13894E4400E97C05 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE0427B313894E4400E97C05 /* SocialBlocksViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0427B413894E4400E97C05 /* en */,
+			);
+			name = SocialBlocksViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE0427C413894E4500E97C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0427C513894E4500E97C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0427CC13894E4500E97C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE0427CD13894E4500E97C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE0427CF13894E4500E97C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialBlocks/SocialBlocks-Prefix.pch";
+				INFOPLIST_FILE = "SocialBlocks/SocialBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE0427D013894E4500E97C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialBlocks/SocialBlocks-Prefix.pch";
+				INFOPLIST_FILE = "SocialBlocks/SocialBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE0427D213894E4500E97C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialBlocks.app/SocialBlocks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialBlocksTests/SocialBlocksTests-Prefix.pch";
+				INFOPLIST_FILE = "SocialBlocksTests/SocialBlocksTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE0427D313894E4500E97C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialBlocks.app/SocialBlocks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialBlocksTests/SocialBlocksTests-Prefix.pch";
+				INFOPLIST_FILE = "SocialBlocksTests/SocialBlocksTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE04279113894E4400E97C05 /* Build configuration list for PBXProject "SocialBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0427CC13894E4500E97C05 /* Debug */,
+				CE0427CD13894E4500E97C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0427CE13894E4500E97C05 /* Build configuration list for PBXNativeTarget "SocialBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0427CF13894E4500E97C05 /* Debug */,
+				CE0427D013894E4500E97C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE0427D113894E4500E97C05 /* Build configuration list for PBXNativeTarget "SocialBlocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0427D213894E4500E97C05 /* Debug */,
+				CE0427D313894E4500E97C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE04278E13894E4400E97C05 /* Project object */;
+}
