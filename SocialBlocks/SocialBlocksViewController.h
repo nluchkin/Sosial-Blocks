@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameView.h"
+#import "GameConstants.h"
 
 @interface SocialBlocksViewController : UIViewController {
-    
+
+    GameView* gameView;
+    GameState* gameState;
 }
 
 @end
