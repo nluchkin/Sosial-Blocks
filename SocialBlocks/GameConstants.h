@@ -15,6 +15,7 @@
 #define COLOR_GREEN 5
 #define COLOR_BLUE  6
 #define COLOR_BLACK 7
+#define COLOR_CYAN  8
 #define BOX_WIDTH   30
 #define BOX_HEIGHT  30
 #define DY          5
